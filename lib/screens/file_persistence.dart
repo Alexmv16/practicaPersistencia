@@ -56,7 +56,6 @@ class _FileSceneState extends State<FileScene> {
             TextField(
               maxLines: 2,
               onChanged: _updateField,
-              // using controller to set initial value
               controller: TextEditingController(text: _sentence),
             ),
 
